@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="drawwin.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="minWidth" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">56</Value>
+    </Setting>
+    <Setting Name="minHeight" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="titleExcludeList" Type="System.String" Scope="User">
+      <Value Profile="(Default)">IME;Sogou;HintWnd;TXMenu;SystemResource;Tray;NVIDIA;Wnd;Nv;Rtk;AXWIN;QTTab;NV;</Value>
+    </Setting>
+    <Setting Name="processExcludeList" Type="System.String" Scope="User">
+      <Value Profile="(Default)">dwm;nv;</Value>
+    </Setting>
+    <Setting Name="maxLength" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">40</Value>
+    </Setting>
+    <Setting Name="pipAlpha" Type="System.Byte" Scope="Application">
+      <Value Profile="(Default)">180</Value>
+    </Setting>
+    <Setting Name="lang" Type="System.String" Scope="User">
+      <Value Profile="(Default)">简体中文</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
