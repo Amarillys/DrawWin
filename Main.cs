@@ -297,10 +297,13 @@ namespace drawwin
 
         private void SetChromePictureInPicture()
         {
-            var pip = this.processes.Where(p => p.Title == "画中画").ToArray()[0];
-            WindowMgr.SetTransparent(pip.Handle, Setting.Default.pipAlpha);
-            WindowMgr.SetPenetrate(pip.Handle, true);
-            WindowMgr.SetOnTop(pip.Handle, true);
+            var pip = this.processes.Where(p => p.Title == "画中画").ToArray();
+            if (pip.Length > 0)
+            {
+                WindowMgr.SetTransparent(pip[0].Handle, Setting.Default.pipAlpha);
+                WindowMgr.SetPenetrate(pip[0].Handle, true);
+                WindowMgr.SetOnTop(pip[0].Handle, true);
+            }
         }
     }
 }
